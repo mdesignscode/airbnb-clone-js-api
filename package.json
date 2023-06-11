@@ -1,0 +1,35 @@
+{
+  "name": "airbnb-clone-js-api",
+  "version": "1.0.0",
+  "description": "Rest API for AirBnB Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/mdesignscode/airbnb-clone-js-api.git"
+  },
+  "author": "Marlon Baatjes",
+  "homepage": "https://github.com/mdesignscode/airbnb-clone-js-api#readme",
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "cli-testlab": "^2.2.0",
+    "cmd": "^0.1.0",
+    "mocha": "^10.2.0",
+    "node-uuid": "^1.4.8",
+    "nodemon": "^2.0.21",
+    "prisma": "^4.11.0",
+    "sinon": "^15.0.1",
+    "supertest": "^6.3.3"
+  }
+}
