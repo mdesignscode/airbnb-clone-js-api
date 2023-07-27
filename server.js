@@ -33,6 +33,7 @@ app.use('/api/v1/amenities', amenitiesRouter);
 app.use('/api/v1/users', usersRouter);
 app.use('/api/v1/places', placesRouter);
 app.use('/api/v1/reviews', reviewsRouter);
+app.use('/api-docs', swaggerDocument);
 
 app.use((req, res, next) => {
   res.status(404).json({ error: 'Not found' });
